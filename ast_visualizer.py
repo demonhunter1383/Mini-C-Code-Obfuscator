@@ -90,4 +90,4 @@ class ASTVisualizer:
     def render(self, ast, filename='ast_output.png'):
         self.visit(ast)
         self.graph.write_png(filename)
-        print(f"AST visualization saved to {filename}")
+        print(f"✅ AST visualization saved to {filename}")
